@@ -71,10 +71,10 @@ _User needs to populate project-memory/active.md with current tasks_
 
 ## Last Wake Information
 
-**Last wake timestamp:** 2025-10-24 16:10 CEST (14:10 UTC) (manual)
+**Last wake timestamp:** 2025-10-24 18:10 CEST (16:10 UTC) (manual)
 
 **Last wake reason:** Manual OODA loop execution request
 
-**Last action taken:** Full OODA loop executed. Processed GitHub issue #4 requesting imaginary Terence McKenna quote about GitHub repositories. Successfully sent Discord message with creative McKenna-style quote about GitHub as "living memory palace" and distributed version control. Closed issue #4 with confirmation comment. System fully operational.
+**Last action taken:** Full OODA loop executed. Processed GitHub issue #5 requesting two tasks with reminders. Added "Organize Halloween" (remind Saturday 10am Zurich) and "Write to Eugen" (remind today 10pm Zurich) to active.md. Set up two one-time cron reminders. Sent Discord confirmation. Closed issue #5. System operational with first real user tasks loaded.
 
-**Next scheduled wake:** Morning check-in 07:30 Zurich (05:30 UTC) daily, Evening check-in 21:00 Zurich (19:00 UTC) daily, GitHub polling every 5 minutes
+**Next scheduled wake:** One-time: Today 22:00 Zurich (write to Eugen), One-time: Saturday 2025-10-26 10:00 Zurich (organize halloween), Morning check-in 07:30 Zurich daily, Evening check-in 21:00 Zurich daily, GitHub polling every 5 minutes
