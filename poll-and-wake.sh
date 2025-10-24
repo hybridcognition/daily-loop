@@ -17,8 +17,8 @@ log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
 }
 
-# Check for open issues
-OPEN_COUNT=$(gh issue list --repo "$REPO_OWNER/$REPO_NAME" --state open --json number 2>/dev/null | jq '. | length')
+# Check for open issues (no jq needed - just count lines)
+OPEN_COUNT=$(gh issue list --repo "$REPO_OWNER/$REPO_NAME" --state open 2>/dev/null | wc -l)
 
 # If any open issues, wake the agent
 if [ "$OPEN_COUNT" -gt 0 ]; then
