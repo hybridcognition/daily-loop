@@ -5,10 +5,10 @@ The agent uses this file to predict what's coming and remind you proactively BEF
 
 ## Weekly Rhythms
 
-**Thursday 7:50 AM (Zurich):** Check if swimming gear is packed
+**Thursday 7:50 AM (Zurich):** Check if swimming gear and beanie is packed
 *Agent reminder scheduled: Every Thursday at 7:50 AM Zurich time*
 
-**Friday 7:50 AM (Zurich):** Reminder about swimming for morning
+**Friday 7:50 AM (Zurich):** Reminder about Forest Morning
 *Agent reminder scheduled: Every Friday at 7:50 AM Zurich time*
 
 ## Monthly Cycles
