@@ -71,10 +71,10 @@ _User needs to populate project-memory/active.md with current tasks_
 
 ## Last Wake Information
 
-**Last wake timestamp:** 2025-10-24 21:00 CEST (19:00 UTC) (cron - evening check-in)
+**Last wake timestamp:** 2025-10-24 22:00 CEST (20:00 UTC) (manual - one-time reminder trigger)
 
-**Last wake reason:** Scheduled evening wake-up (9:00 PM Zurich time)
+**Last wake reason:** Manual wake-up to execute one-time reminder for "Write to Eugen" (scheduled for 10:00 PM Zurich time)
 
-**Last action taken:** Evening OODA loop executed. Sent evening reflection prompt to Discord. Reviewed active tasks - both tasks healthy (added today, no decay). No GitHub issues to process. Context.md remains empty (awaiting user input). All cron jobs verified operational.
+**Last action taken:** OODA loop executed. Sent Discord reminder for "Write to Eugen" task (due now at 10pm). Removed one-time cron job for this reminder (0 22 24 10). Verified remaining cron schedule operational.
 
-**Next scheduled wake:** One-time: Today 22:00 Zurich (write to Eugen reminder), One-time: Saturday 2025-10-26 10:00 Zurich (organize halloween), Recurring: Thursday 07:50 Zurich (swimming gear + beanie check), Recurring: Friday 07:50 Zurich (Forest Morning reminder), Morning check-in 07:30 Zurich daily, Evening check-in 21:00 Zurich daily, GitHub polling every 5 minutes
+**Next scheduled wake:** One-time: Saturday 2025-10-26 10:00 Zurich (organize halloween), Recurring: Thursday 07:50 Zurich (swimming gear + beanie check), Recurring: Friday 07:50 Zurich (Forest Morning reminder), Morning check-in 07:30 Zurich daily, Evening check-in 21:00 Zurich daily, GitHub polling every 5 minutes
