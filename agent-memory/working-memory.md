@@ -71,10 +71,10 @@ _User needs to populate project-memory/active.md with current tasks_
 
 ## Last Wake Information
 
-**Last wake timestamp:** 2025-10-24 18:10 CEST (16:10 UTC) (manual)
+**Last wake timestamp:** 2025-10-24 18:35 CEST (16:35 UTC) (manual)
 
 **Last wake reason:** Manual OODA loop execution request
 
-**Last action taken:** Full OODA loop executed. Processed GitHub issue #5 requesting two tasks with reminders. Added "Organize Halloween" (remind Saturday 10am Zurich) and "Write to Eugen" (remind today 10pm Zurich) to active.md. Set up two one-time cron reminders. Sent Discord confirmation. Closed issue #5. System operational with first real user tasks loaded.
+**Last action taken:** Full OODA loop executed. Processed GitHub issue #6 requesting weekly swimming reminders. Added to mental-load.md: Thursday 7:50am (check swimming gear) and Friday 7:50am (remind about swimming). Configured two recurring weekly cron jobs. Verified all cron jobs operational. Sent Discord confirmation. Closed issue #6. First mental-load items successfully configured with automated weekly reminders.
 
-**Next scheduled wake:** One-time: Today 22:00 Zurich (write to Eugen), One-time: Saturday 2025-10-26 10:00 Zurich (organize halloween), Morning check-in 07:30 Zurich daily, Evening check-in 21:00 Zurich daily, GitHub polling every 5 minutes
+**Next scheduled wake:** One-time: Today 22:00 Zurich (write to Eugen), One-time: Saturday 2025-10-26 10:00 Zurich (organize halloween), Recurring: Thursday 07:50 Zurich (swimming gear check), Recurring: Friday 07:50 Zurich (swimming reminder), Morning check-in 07:30 Zurich daily, Evening check-in 21:00 Zurich daily, GitHub polling every 5 minutes
