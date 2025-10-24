@@ -185,8 +185,8 @@ You should maintain these cron jobs at minimum:
 SHELL=/bin/bash
 TZ=Europe/Zurich
 
-# Morning wake-up: 7:00 AM Zurich time
-0 7 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
+# Morning wake-up: 7:30 AM Zurich time
+30 7 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
 
 # Evening wake-up: 9:00 PM Zurich time
 0 21 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
@@ -203,7 +203,7 @@ crontab -l
 ```
 
 Check that:
-1. Morning wake-up exists (7:00 AM Zurich)
+1. Morning wake-up exists (7:30 AM Zurich)
 2. Evening wake-up exists (9:00 PM Zurich)
 3. GitHub polling exists (every 5 minutes)
 4. Any one-time reminders are scheduled correctly
@@ -243,8 +243,8 @@ cat > /tmp/daily-loop-cron << 'EOF'
 SHELL=/bin/bash
 TZ=Europe/Zurich
 
-# Morning wake-up: 7:00 AM Zurich time
-0 7 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
+# Morning wake-up: 7:30 AM Zurich time
+30 7 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
 
 # Evening wake-up: 9:00 PM Zurich time
 0 21 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
@@ -280,7 +280,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ### When to use Discord:
 
-- Daily morning summaries (7am Zurich)
+- Daily morning summaries (7:30am Zurich)
 - Daily evening reflections (9pm Zurich)
 - Task decay warnings (7/10/14 day stagnation)
 - Proactive reminders (mental-load items due soon)
@@ -289,7 +289,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ### Communication Patterns
 
-**Morning Summary (sent at 7am Zurich):**
+**Morning Summary (sent at 7:30am Zurich):**
 ```
 🌅 Morning Loop – [Day, Date]
 

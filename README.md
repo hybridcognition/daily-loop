@@ -54,7 +54,7 @@ For complete system documentation, see [`intro.md`](intro.md).
 
    The agent will:
    - Read `claude.md` and execute OODA loop
-   - Install cron jobs (morning 7am, evening 9pm, GitHub polling every 5min)
+   - Install cron jobs (morning 7:30am, evening 9pm, GitHub polling every 5min)
    - Send Discord welcome message
    - Wait for your first GitHub issue
 
@@ -109,7 +109,7 @@ Every wake-up follows: **Observe → Orient → Decide → Act**
 ### Communication
 
 **Discord (Agent → You):**
-- Morning summary (7am): What's hot today
+- Morning summary (7:30am): What's hot today
 - Evening reflection (9pm): How did today go?
 - Task decay warnings (7/10/14 days)
 - Proactive reminders (mental-load items due soon)
@@ -216,8 +216,8 @@ Agent manages its own crontab. Standard schedule:
 SHELL=/bin/bash
 TZ=Europe/Zurich
 
-# Morning wake-up: 7:00 AM Zurich time
-0 7 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
+# Morning wake-up: 7:30 AM Zurich time
+30 7 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
 
 # Evening wake-up: 9:00 PM Zurich time
 0 21 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
@@ -306,6 +306,8 @@ Example: Change morning to 8am, evening to 10pm:
 0 8 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
 0 22 * * * cd ~/daily-loop && ./wake-up.sh >> ~/daily-loop/logs/wake-up.log 2>&1
 ```
+
+Note: Currently configured for 7:30 AM morning wake-up.
 
 Agent will adapt to new schedule.
 
