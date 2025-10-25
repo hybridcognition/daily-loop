@@ -41,7 +41,9 @@ _None currently._
 
 ## Next Steps / Proposals
 
-_System operational. User needs to populate project-memory files with their actual mental-load and active tasks via GitHub issues._
+- User should update task "Write to Eugen" status (reminder was sent yesterday 10pm)
+- User should populate context.md with current focus/energy/constraints
+- Awaiting user input via GitHub issues
 
 ---
 
@@ -50,31 +52,32 @@ _System operational. User needs to populate project-memory files with their actu
 **Reference:** See `project-memory/active.md` for detailed task tracking.
 
 **Current active tasks:**
-_User needs to populate project-memory/active.md with current tasks_
+1. **Organize Halloween** - Added 2025-10-24, reminder scheduled tomorrow 10am
+2. **Write to Eugen** - Added 2025-10-24, reminder sent yesterday 10pm (past due, awaiting completion status)
 
 ---
 
 ## Current Status
 
-**System Status:** Fully operational as of 2025-10-24
-- Transformed from decluttering agent to general life management agent
-- Standard cron schedule verified and active (morning 7:30am, evening 9pm Zurich, GitHub polling every 5min)
-- Memory architecture: agent-memory/ (internal) + project-memory/ (human's life)
-- Discord webhook tested and working
-- GitHub issue processing tested and working
+**System Status:** Fully operational
+- Morning/evening check-ins active (7:30am, 9pm Zurich)
+- Mental-load reminders configured (Thursday/Friday 7:50am)
+- GitHub polling every 5 minutes
+- One-time reminder scheduled: Saturday 10am (Halloween)
+- All cron jobs verified operational
 
-**Next Steps:**
-- User needs to populate project-memory/ files with their actual data
-- Ready for scheduled wake-ups and GitHub-triggered processing
+**Task Health:**
+- All active tasks <7 days old (no decay detected)
+- "Write to Eugen" past reminder time (awaiting user update)
 
 ---
 
 ## Last Wake Information
 
-**Last wake timestamp:** 2025-10-24 22:00 CEST (20:00 UTC) (manual - one-time reminder trigger)
+**Last wake timestamp:** 2025-10-25 07:30 CEST (05:30 UTC) (scheduled morning wake-up)
 
-**Last wake reason:** Manual wake-up to execute one-time reminder for "Write to Eugen" (scheduled for 10:00 PM Zurich time)
+**Last wake reason:** Scheduled morning wake-up (7:30 AM Zurich time - daily check-in)
 
-**Last action taken:** OODA loop executed. Sent Discord reminder for "Write to Eugen" task (due now at 10pm). Removed one-time cron job for this reminder (0 22 24 10). Verified remaining cron schedule operational.
+**Last action taken:** OODA loop executed. Sent morning summary to Discord. Checked task health - no decay (all tasks <7 days). Updated working-memory and episodic-memory. Verified cron schedule operational.
 
 **Next scheduled wake:** One-time: Saturday 2025-10-26 10:00 Zurich (organize halloween), Recurring: Thursday 07:50 Zurich (swimming gear + beanie check), Recurring: Friday 07:50 Zurich (Forest Morning reminder), Morning check-in 07:30 Zurich daily, Evening check-in 21:00 Zurich daily, GitHub polling every 5 minutes
